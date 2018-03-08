@@ -1,0 +1,118 @@
+@font-face {
+  font-family: PT;
+  src: url(../fonts/PT_Sans-Web-Regular.ttf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald-Regular.ttf);
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #E3F2FD;
+}
+.main-wrapper {
+  padding: 6px;
+}
+.tab {
+  background-color: #1565C0;
+  color: #ffffff;
+}
+.tab-indicator {
+  background-color: #FF8F00;
+}
+.tests-menu {
+
+}
+.test-menu-li-title {
+  width: 48%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.test-menu-li-button {
+  width: 48%;
+  float: left;
+  padding: 1%;
+}
+.test-menu-button-start:hover {
+  background-color: #000;
+}
+.test-wrapper {
+  padding: 10px;
+}
+.test-question-result {
+  float: left;
+  width: 100%;
+}
+.test-answer-error {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+}
+.test-form {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: -200px;
+  left: -200px;
+  float: left;
+  margin-top: 50%;
+  margin-left: 50%;
+}
+.test-form-answer {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.test-form-input {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.test-form-button {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.test-result {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: -130px;
+  left: -150px;
+  float: left;
+  margin-top: 50%;
+  margin-left: 50%;
+}
+.test-result-button {
+  width: 100%;
+  text-align: center;
+}
+.dictionary {
+  background-color: #ffffff;
+}
+.dictionary-toolbar {
+  background-color: #546e7a;
+}
+.dictionary-title {
+  color: #ffffff;
+  font-size: 20px;
+}
+.dictionary-title-row {
+  background-color: #455a64;
+}
+.dictionary-row {
+  font-family: PT;
+}
+.dictionary-cell {
+  color: #000000;
+  font-size: 16px;
+}

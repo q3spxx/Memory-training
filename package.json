@@ -1,0 +1,29 @@
+{
+  "name": "memoryTraining",
+  "version": "0.1.0",
+  "main": "main.js",
+  "license": "MIT",
+  "repository": "q3spxx/Memory-training",
+  "scripts": {
+    "start": "electron -r babel-register .",
+    "rebuild": "electron-rebuild -f -w sqlite3"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "clone-deep": "^2.0.1",
+    "material-ui": "^1.0.0-beta.22",
+    "object-assign": "^4.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "electron": "^1.4.3",
+    "electron-rebuild": "^1.6.0"
+  }
+}
