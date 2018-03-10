@@ -1,6 +1,6 @@
 'use strict'
 
-import DevNN from "./dev-nn.js";
+import NN from "./nn.js";
 import db from "./db.js";
 import am from "./array-math.js";
 import helper from "./helper.js";
@@ -10,7 +10,7 @@ import {updateNN} from '../actions/nnActions.js';
 class NNManager {
 	constructor () {
 		this.trainingDataCount = 50;
-		this.nn = new DevNN();
+		this.nn = new NN();
 		this.table = "nn";
 		this.tempData = {
 			rating: {
